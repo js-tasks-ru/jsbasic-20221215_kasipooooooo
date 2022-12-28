@@ -1,3 +1,5 @@
 function factorial(n) {
-  // ваш код...
+    while (n != 1) {
+    n*(--n);
+  }
 }
